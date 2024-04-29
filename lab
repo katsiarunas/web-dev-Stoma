@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News Website</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; }
+  .container { display: flex; }
+  .main-content { width: 70%; padding: 20px; }
+  .sidebar { width: 30%; background-color: #FFE4C4; padding: 20px; }
+  .article { margin-bottom: 20px; }
+  .article img { max-width: 100%; height: auto; }
+  .article h2 { color: #333; }
+  .article p { color: #666; }
+  .login-box { background-color: #FFE4C4; padding: 10px; margin-bottom: 20px; }
+  .login-box label, .login-box input { display: block; margin-bottom: 10px; }
+  .login-box input { width: 90%; padding: 5px; }
+  .navigation { background-color: #FFE4C4; padding: 10px; }
+  .navigation ul { list-style-type: none; padding: 0; }
+  .navigation li { margin-bottom: 10px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="main-content">
+    <!-- Articles -->
+    <div class="article">
+      <img src="https://media.sudouest.fr/8997986/1000x500/so-57ecc86566a4bdfb7ce337df-ph0.jpg?v=1350283090" alt="Article Image">
+      <h2>Causa Moe Quidem Torqueo</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      <a href="#">Read more</a>
+    </div>
+    
+    <div class="article">
+      <img src="https://i.pinimg.com/564x/dc/1b/64/dc1b64fd6189ac1dcafc7ee6959e1c5c.jpg" alt="Article Image" width=300>
+      <h2>Abdo Facilisis Loquor Scisco Secundum Vicis</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      <a href="#">Read more</a>
+    </div>
+    
+    <!-- More articles... -->
+  </div>
+
+  <div class="sidebar">
+    <!-- User Login -->
+    <div class="login-box">
+      <h3>User Login</h3>
+      <label for="username">Username *</label>
+      <input type="text" id="username">
+      <label for="password">Password *</label>
+      <input type="password" id="password">
+      <input type="submit" value="Log in">
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="#">Forums</a></li>
+        <li><a href="#">Recent content</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
